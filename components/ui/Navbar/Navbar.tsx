@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { Box, Flex } from '@chakra-ui/react';
-import { FaDollarSign, FaRegWindowMaximize } from 'react-icons/fa';
 
 import logo from '@/assets/logo.png';
 import { createServerSupabaseClient } from '@/app/supabase-server';
@@ -38,8 +37,6 @@ export default async function Navbar() {
       bg="whiteAlpha.200"
       py={4}
       px={[4, 4, 4, 8]}
-      borderBottom="1px"
-      borderColor="whiteAlpaha.300"
     >
       <Link href={'/'}>
         <Flex

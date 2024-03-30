@@ -149,7 +149,7 @@ const ProfileButton: FC<Props> = ({ user }) => {
           color={'#181818'}
           boxShadow="outline"
         >
-          <ModalBody>
+          <ModalBody z-index={100}>
             <Flex>
               <Stack w="full">
                 <Box py={2}>
